@@ -152,6 +152,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Playing with pointers.cpp" />
+    <ClCompile Include="prc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

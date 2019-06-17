@@ -1,24 +1,15 @@
+#include "prc.h"
 #include <iostream>
 
-void pb_value(int x);
-void pb_reference(int* x);
 
 int main()
 {
-	int a = 10;
-	int b = 10;
+	prc Show;
+	prc* Show_ptr = &Show;
 
-	pb_value(a);
-	pb_reference(&b);
+	Show.printText();
 
-	std::cout << a << std::endl;
-	std::cout << b << std::endl;
-}
+	Show_ptr->printText();
 
-void pb_value(int x) {
-	x = 100;
-}
 
-void pb_reference(int* x) {
-	*x = 100;
 }

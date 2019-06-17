@@ -18,5 +18,13 @@
     <ClCompile Include="Playing with pointers.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="prc.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prc.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
