@@ -1,0 +1,14 @@
+﻿  playermodel selector.cpp
+  pm_available.cpp
+  pm_selected.cpp
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\playermodel selector\playermodel selector\pm_selected.h(5,19): error C2039:  "string": Ist kein Element von "std"
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\playermodel selector\playermodel selector\predefined C++ types (compiler internal)(256): message :  Siehe Deklaration von "std"
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\playermodel selector\playermodel selector\pm_selected.h(5,44): error C2061:  Syntaxfehler: Bezeichner "string"
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\playermodel selector\playermodel selector\pm_selected.h(7,7): error C2039:  "string": Ist kein Element von "std"
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\playermodel selector\playermodel selector\predefined C++ types (compiler internal)(256): message :  Siehe Deklaration von "std"
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\playermodel selector\playermodel selector\pm_selected.h(7,28): error C3646:  "model_selected": Unbekannter Überschreibungsspezifizierer
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\playermodel selector\playermodel selector\pm_selected.h(7,28): error C4430:  Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\playermodel selector\playermodel selector\pm_selected.cpp(6,2): error C2511:  "pm_selected::pm_selected(std::string,pm_available)": Überladene Memberfunktion nicht in "pm_selected" gefunden
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\playermodel selector\playermodel selector\pm_selected.h(2): message :  Siehe Deklaration von "pm_selected"
+  Code wird generiert...
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\playermodel selector\playermodel selector\pm_selected.cpp(7,1): error C2550:  "pm_selected::{ctor}": Initialisierungslisten für Konstruktoren dürfen nur in Konstruktordefinition stehen
