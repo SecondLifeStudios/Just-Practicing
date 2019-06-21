@@ -4,17 +4,15 @@
 
 int main()
 {
-	Wheels w_color("red");
-
 	Bicycle printBicycleInformation_noColorSelected("Gustaf");
-	Bicycle printBicycleInformation_ColorSelected("Gustaf", "orange");
+	Bicycle printBicycleInformation_ColorButNoConditionSelected("Gustaf", "blue");
+	Bicycle printBicycleInformation_ColorAndConditionButNoAgeSelected("Gustaf", "blue", "great");
+	Bicycle printBicycleInformation_ColorAndConditionAndAgeSelected("Gustaf", "orange", "good", 12);
 
 	printBicycleInformation_noColorSelected.printNameAndColor();
-
-	std::cout << std::endl;
-	std::cout << std::endl;
-
-	printBicycleInformation_ColorSelected.printNameAndColor();
+	printBicycleInformation_ColorButNoConditionSelected.printNameAndColor();
+	printBicycleInformation_ColorAndConditionButNoAgeSelected.printNameAndColor();
+	printBicycleInformation_ColorAndConditionAndAgeSelected.printNameAndColor();
 
 }
 

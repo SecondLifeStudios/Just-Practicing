@@ -1,10 +1,19 @@
-/*#include "Condition.h"
+#include "Condition.h"
 #include <iostream>
+#include <string>
 
-Condition::Condition(std::string c) {
-	condition_level = c;
+Condition::Condition() {
+	condition_level = "average";
 }
 
-void Condition::printConditionLevel() {
-	std::cout << "Apart of that, the bike has a " << condition_level << " condition!" << std::endl;
-}*/
+void Condition::printCondition_level() {
+	std::cout << "Apart of that, the condition of the bicycle is " << condition_level << "! ";
+}
+
+void Condition::setCondition_level(std::string cl) {
+	condition_level = cl;
+}
+
+std::string Condition::getCondition_level() {
+	return condition_level;
+}

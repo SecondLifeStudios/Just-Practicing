@@ -4,16 +4,16 @@
 class Wheels
 {
 public:
-	void setWheels_color(std::string swc) {
-		wheels_color = swc;
-	}
-	std::string getWheels_color() {
-		return wheels_color;
-	}
-	Wheels(std::string wc);
-	Wheels(){}
+	// Default constructor
+	Wheels();
+
 	void printColor();
+
+	void setWheels_color(std::string swc);
+	std::string getWheels_color();
+
 private:
 	std::string wheels_color;
 };
+
 
