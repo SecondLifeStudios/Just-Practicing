@@ -1,0 +1,6 @@
+﻿  Bicycle.cpp
+  Wheels.cpp
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\Bicycle (composition i will beat you)\Bicycle (composition i will beat you)\Bicycle.cpp(12,32): error C2659:  "=": Funktion als linker Operand.
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\Bicycle (composition i will beat you)\Bicycle (composition i will beat you)\Wheels.cpp(4,18): error C2084:  Funktion "Wheels::Wheels(void)" hat bereits einen Funktionsrumpf
+  Code wird generiert...
+C:\Users\lpran\Desktop\Coding\Projects\Just Practicing\Bicycle (composition i will beat you)\Bicycle (composition i will beat you)\Wheels.h(14): message :  Siehe vorherige Definition von "{ctor}"
